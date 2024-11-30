@@ -1,7 +1,7 @@
 // app/api/login/route.js
 import { NextResponse } from 'next/server';
 import { MongoClient } from 'mongodb';
-import { signToken } from '../../../utils/auth';
+import { signToken } from '../../utils/auth';
 import bcrypt from 'bcrypt';
 
 export async function POST(req) {

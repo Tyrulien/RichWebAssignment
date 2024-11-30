@@ -1,7 +1,7 @@
 // app/api/getCartItems/route.js
 import { NextResponse } from 'next/server';
 import { MongoClient, ObjectId } from 'mongodb';
-import { verifyToken } from '../../../utils/auth';
+import { verifyToken } from '../../utils/auth';
 
 export async function GET(req) {
   const uri = process.env.MONGODB_URI;

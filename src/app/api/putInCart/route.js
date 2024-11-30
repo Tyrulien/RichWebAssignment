@@ -1,7 +1,7 @@
 // app/api/putInCart/route.js
 import { NextResponse } from 'next/server';
 import { MongoClient, ObjectId } from 'mongodb';
-import { verifyToken } from '../../../utils/auth';
+import { verifyToken } from '../../utils/auth';
 
 export async function POST(req) {
   try {

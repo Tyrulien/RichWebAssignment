@@ -1,7 +1,7 @@
 // app/api/confirmOrder/route.js
 import { NextResponse } from 'next/server';
 import { MongoClient, ObjectId } from 'mongodb';
-import { verifyToken } from '../../../utils/auth';
+import { verifyToken } from '../../utils/auth';
 import nodemailer from 'nodemailer';
 
 export async function POST(req) {

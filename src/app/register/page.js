@@ -139,7 +139,7 @@ export default function Register() {
             id="address"
             autoComplete="street-address"
           />
-          {/* Optionally, you can remove the "Remember me" checkbox if it's not needed */}
+          {/*  */}
           {/* <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
